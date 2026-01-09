@@ -7,11 +7,8 @@ export const jobsdata: Job[] = [
     company: "XYZ Tech",
     tags: ["React", "Internship", "Remote"],
     description: "Build responsive UI components using React and Tailwind CSS.",
-    eligibility: {
-      minCGPA: 7.0,
-      branches: ["CSE", "IT"],
-      passingYears: [2025, 2026],
-    },
+    eligible: false,
+    ineligibilityReason: 'somthing',
     applied: false,
   },
   {
@@ -20,11 +17,8 @@ export const jobsdata: Job[] = [
     company: "CodeWorks",
     tags: ["Node.js", "APIs", "Internship"],
     description: "Develop REST APIs and work with databases.",
-    eligibility: {
-      minCGPA: 6.5,
-      branches: ["CSE"],
-      passingYears: [2025],
-    },
+    eligible: true,
+    ineligibilityReason: 'somthing',
     applied: false,
   },
   {
@@ -33,11 +27,8 @@ export const jobsdata: Job[] = [
     company: "DevSphere",
     tags: ["React", "Node", "MongoDB"],
     description: "Work across frontend and backend systems.",
-    eligibility: {
-      minCGPA: 7.5,
-      branches: ["CSE", "IT"],
-      passingYears: [2025, 2026],
-    },
+    eligible: false,
+    ineligibilityReason: 'somthing',
     applied: false,
   },
   {
@@ -46,11 +37,8 @@ export const jobsdata: Job[] = [
     company: "Designify",
     tags: ["Figma", "Design", "Internship"],
     description: "Create user-friendly designs and wireframes.",
-    eligibility: {
-      minCGPA: 6.0,
-      branches: ["CSE", "IT", "ECE"],
-      passingYears: [2024, 2025],
-    },
+    eligible: false,
+    ineligibilityReason: 'somthing',
     applied: false,
   },
   {
@@ -59,11 +47,8 @@ export const jobsdata: Job[] = [
     company: "DataNest",
     tags: ["Python", "SQL", "Analytics"],
     description: "Analyze datasets and generate insights.",
-    eligibility: {
-      minCGPA: 7.0,
-      branches: ["CSE", "IT", "ECE"],
-      passingYears: [2025],
-    },
+    eligible: true,
+    ineligibilityReason: 'somthing',
     applied: false,
   },
   {
@@ -72,11 +57,8 @@ export const jobsdata: Job[] = [
     company: "CloudCore",
     tags: ["Java", "Spring Boot", "Full-time"],
     description: "Build scalable backend services.",
-    eligibility: {
-      minCGPA: 7.5,
-      branches: ["CSE"],
-      passingYears: [2024, 2025],
-    },
+    eligible: false,
+    ineligibilityReason: 'somthing',
     applied: false,
   },
   {
@@ -85,11 +67,8 @@ export const jobsdata: Job[] = [
     company: "AppForge",
     tags: ["React Native", "Mobile", "Internship"],
     description: "Develop cross-platform mobile applications.",
-    eligibility: {
-      minCGPA: 6.8,
-      branches: ["CSE", "IT"],
-      passingYears: [2025, 2026],
-    },
+    eligible: true,
+    ineligibilityReason: 'somthing',
     applied: false,
   },
   {
@@ -98,11 +77,8 @@ export const jobsdata: Job[] = [
     company: "TestLabs",
     tags: ["Testing", "Automation", "Selenium"],
     description: "Write automated test cases for web applications.",
-    eligibility: {
-      minCGPA: 6.0,
-      branches: ["CSE", "IT"],
-      passingYears: [2024, 2025],
-    },
+    eligible: false,
+    ineligibilityReason: 'somthing',
     applied: false,
   },
   {
@@ -111,11 +87,8 @@ export const jobsdata: Job[] = [
     company: "InfraStack",
     tags: ["Docker", "CI/CD", "Cloud"],
     description: "Assist in deployment pipelines and cloud infrastructure.",
-    eligibility: {
-      minCGPA: 7.2,
-      branches: ["CSE", "IT"],
-      passingYears: [2025],
-    },
+    eligible: true,
+    ineligibilityReason: 'somthing',
     applied: false,
   },
   {
@@ -124,11 +97,8 @@ export const jobsdata: Job[] = [
     company: "BrainWave AI",
     tags: ["Python", "Machine Learning", "Internship"],
     description: "Work on ML models and data preprocessing.",
-    eligibility: {
-      minCGPA: 8.0,
-      branches: ["CSE", "IT"],
-      passingYears: [2025, 2026],
-    },
+    eligible: true,
+    ineligibilityReason: 'somthing',
     applied: false,
   },
 ];

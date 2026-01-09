@@ -4,10 +4,7 @@ export type Job = {
   company: string;
   tags: string[];
   description: string;
-  eligibility: {
-    minCGPA: number;
-    branches: string[];
-    passingYears: number[];
-  };
+  eligible: boolean;
+  ineligibilityReason?: string;
   applied: boolean;
 };
